@@ -21,4 +21,4 @@
 
 ## 📫 Cómo contactarme
 - Correo: iryanavahe@ittepic.edu.mx
-- GitHub: [@DemonsamG](https://github.com/yaairnaavaa)
+- GitHub: [@yaairnaavaa](https://github.com/yaairnaavaa)
