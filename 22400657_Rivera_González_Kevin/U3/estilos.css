@@ -91,3 +91,9 @@ input[type="reset"]:hover{
 input[type="submit"]:hover {
     background: red;
 }
+
+@media (max-width: 750px){
+    .grid-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
