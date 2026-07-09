@@ -1,0 +1,126 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: white;
+}
+
+.G {
+    color: #4285f4;
+}
+
+.or {
+    color: #ea4335;
+}
+
+.oa {
+    color: #fbbc05;
+}
+
+.lv {
+    color: #34a853;
+}
+
+.er {
+    color: #ea4335;
+}
+
+h1 {
+    text-align: center;
+    font-size: 90px;
+    letter-spacing: -2;
+}
+
+.busqueda {
+    border-radius: 24px;
+    padding: 12px 20px;
+    border: 1px solid #dfe1e5;
+    margin-top: 30px;
+    width: 580px;
+    outline: none;
+
+}
+
+.buscar {
+    display: flex;
+    justify-content: center;
+}
+
+.buscar a {
+    background-color: #f8f9fa;
+    color: #3c4043;
+    padding: 10px 16px;
+    margin: 11px 4px;
+    border-radius: 4px;
+    font-size: 14px;
+    display: inline-block;
+}
+
+.sobregoogle {
+    background-color: rgb(221, 215, 215);
+    border-collapse: separate;
+    border-spacing: 15px 20px;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.otros {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;
+    padding: 15px 30px;
+    font-size: 13px;
+}
+
+.acceder {
+    background-color: blue;
+    color: white;
+    padding: 3px;
+    border-radius: 15px;
+}
+.mexico {
+    background-color: #f2f2f2;
+    color: #70757a;
+    font-size: 14px;
+    padding: 8px 30px;
+    border-bottom: 1px solid #dadde1;
+    position: fixed;
+    bottom: 38px;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.sobregoogle {
+    background-color: #f2f2f2;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 30px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sobregoogle a {
+    margin-right: 15px;
+    color: #70757a;
+    font-size: 14px;
+    text-decoration: none;
+}
+.sobregoogle p {
+    display: flex;
+    width: 100%;
+    margin: 0;
+}
+
+.sobregoogle a:nth-child(5) {
+    margin-left: auto;
+}
