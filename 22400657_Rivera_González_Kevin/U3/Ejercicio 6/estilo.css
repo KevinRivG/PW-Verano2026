@@ -1,0 +1,110 @@
+body,h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+.titulo{
+    font-size: 35px;
+}
+
+table{
+    background-color: white;
+    color: black;
+    border-color: white;
+    border-radius: 20px;
+    border-spacing:15px;
+    width: 300px;
+    text-align: center;
+
+}
+h3{
+    text-align: center;
+}
+
+table,td{
+    vertical-align: middle;
+}
+
+table,td,img{
+    vertical-align: middle;
+    margin-right: 8px;
+}
+.crearcuenta{
+    color: white;
+    background-color: rgb(67, 67, 222);
+    width: 300px;
+    text-align: center;
+
+}
+.registro{
+    color: gray;
+    font-size: 10px;
+}
+.azul{
+    color: rgb(67, 67, 222);
+}
+
+
+.iniciosecion{
+    text-align: center;
+    border: 1px solid gray;
+    padding: 15px;
+    border-radius: 20px;
+    color: rgb(67, 67, 222);
+    background-color: black;
+    width: 300px;
+}
+
+.letrero{
+    text-align: left;
+    font-size: 12px;
+    
+}
+
+footer{
+    color: grey;
+    font-size: 7px;
+}
+
+.derecho{
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+}
+ h4{
+    font-size: 20px;
+ }
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 85vh;
+    gap: 100px;
+    padding: 20%;
+}
+
+@media (max-width: 900px) {
+    .contenedor {
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+        padding: 30px 15px;
+    }
+
+    .x {
+        display: flex;
+        justify-content: center;
+    }
+
+    .x img {
+        width: 250px;
+    }
+
+    .derecho {
+        align-items: center;
+        text-align: center;
+    }
+}
