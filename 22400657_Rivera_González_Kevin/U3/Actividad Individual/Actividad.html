@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+  
+    <header class="barra-superior">
+        <div class="logo-home">
+           
+            <img src="https://cdn-icons-png.flaticon.com/512/1946/1946436.png" alt="Home" class="icon-img">
+        </div>
+        <div class="buscador-container">
+            <input type="text" class="buscador" placeholder="¿Qué quieres reproducir?">
+        </div>
+        <div class="perfil">
+            
+            <img src="https://cdn-icons-png.flaticon.com/512/3602/3602145.png" alt="Notificaciones" class="icon-img">
+            <img src="https://cdn-icons-png.flaticon.com/512/681/681494.png" alt="Amigos" class="icon-img">
+            <img src="https://cdn-icons-png.flaticon.com/512/1144/1144760.png" alt="Perfil"
+                class="icon-img usuario-perfil">
+        </div>
+    </header>
+
+    
+    <main class="contenedor-principal">
+
+        
+        <aside class="columna-izquierda">
+            <div class="biblioteca-titulo">
+                <h3>Tu biblioteca</h3>
+                <button class="btn-crear">+ Crear</button>
+            </div>
+
+            <div class="filtros">
+                <span class="filtro-tag">Playlists</span>
+                <span class="filtro-tag">Álbumes</span>
+                <span class="filtro-tag">Artistas</span>
+            </div>
+
+            
+            <div class="lista-items">
+                <div class="item">
+                    <img src="https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84b153a935fb9526d6c37bedfd"
+                        alt="Likes">
+                    <div>
+                        <p class="item-titulo">Tus Me Gusta</p>
+                        <p class="item-sub">Playlist • Kevin</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRMn1EecQ5mToLW7ZszWjP-yyXKaEZjWW13JAMgYT-kWj5z8UiH6rCMDJ5&s=10"
+                        alt="Mx">
+                    <div>
+                        <p class="item-titulo">Mx</p>
+                        <p class="item-sub">Playlist • Kevin</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="https://i.scdn.co/image/ab67616d0000b273994c319841a923465d62e271" alt="Perronas">
+                    <div>
+                        <p class="item-titulo">Regional</p>
+                        <p class="item-sub">Playlist • Kevin</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="https://lastfm.freetls.fastly.net/i/u/ar0/a41b47307c8a4633aae98c4cdd706ff3.jpg"
+                        alt="Akwid">
+                    <div>
+                        <p class="item-titulo">Akwid</p>
+                        <p class="item-sub">Artista</p>
+                    </div>
+                </div>
+                <div class="item artista">
+                    <img src="https://i.scdn.co/image/ab67616d0000b2737f0502ab270a757222e1d237" alt="Cuisillos">
+                    <div>
+                        <p class="item-titulo">Cuisillos De Arturo Macias</p>
+                        <p class="item-sub">Artista</p>
+                    </div>
+                </div>
+                <div class="item artista">
+                    <img src="https://i.scdn.co/image/ab67616d0000b273fdb34502316342ebaf3a37ae" alt="Vaquero's">
+                    <div>
+                        <p class="item-titulo">Vaquero's Musical</p>
+                        <p class="item-sub">Artista</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="https://i.scdn.co/image/ab67616d0000b273741bb983d0ff172fdfbaaaf4" alt="Dr Dre">
+                    <div>
+                        <p class="item-titulo">Dr. Dre & Friends</p>
+                        <p class="item-sub">Álbum • Dr. Dre</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="https://i.scdn.co/image/ab67616d0000b273bd8d50678d199f5e060df3f4" alt="Rolas">
+                    <div>
+                        <p class="item-titulo">Marco Antonio Solis</p>
+                        <p class="item-sub">Playlist • Kevin</p>
+                    </div>
+                </div>
+                <div class="item artista">
+                    <img src="https://i.scdn.co/image/ab67616d0000b2735c96eb4aef2510c845b1ecae" alt="Calibre 50">
+                    <div>
+                        <p class="item-titulo">Calibre 50</p>
+                        <p class="item-sub">Artista</p>
+                    </div>
+                </div>
+                <div class="item artista">
+                    <img src="https://i.scdn.co/image/4cd57e5e12ea2c24644c40886d65a9b22eca9802" alt="Bob Marley">
+                    <div>
+                        <p class="item-titulo">Bob Marley & The Wailers</p>
+                        <p class="item-sub">Artista</p>
+                    </div>
+                </div>
+                <div class="item artista">
+                    <img src="https://i.scdn.co/image/ab67616d0000b27306520da08cd8077d3561c50f" alt="Original Banda">
+                    <div>
+                        <p class="item-titulo">La Original Banda El Limón de Salvador Lizárraga</p>
+                        <p class="item-sub">Artista</p>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        
+        <section class="columna-derecha">
+
+            <!--  PRINCIPAL -->
+            <div class="banner-principal">
+                <div class="banner-foto-izq">
+                    <img src="https://i.scdn.co/image/ab67616d0000b273e67e0525ba43864f08d26d32"
+                        alt="Muchacho Alegre Album">
+                </div>
+                <div class="banner-contenido">
+                    <div class="banner-mini-perfil">
+                        <img src="https://cdn-images.dzcdn.net/images/cover/ba3479c701d186c7e9c2ec19adb48ef9/0x1900-000000-80-0-0.jpg" alt="Mini">
+                        <div class="mini-texto">
+                            <span class="mini-artista">Luis R Conriquez</span>
+                            <span class="anuncio-tag">Anuncio</span>
+                        </div>
+                    </div>
+                    <h1 class="banner-titulo">Muchacho Alegre ¡Escúchalo Aquí!</h1>
+                    <div class="banner-acciones">
+                        <button class="btn-escuchar">Escuchar ahora</button>
+                        <span class="btn-opciones">•••</span>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="filtros-contenido">
+                <span class="filtro-main activo">Todo</span>
+                <span class="filtro-main">Música</span>
+                <span class="filtro-main">Podcasts</span>
+            </div>
+
+            
+            <div class="cuadricula-pequeña">
+                <div class="tarjeta-mini">
+                    <img src="https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84b153a935fb9526d6c37bedfd">
+                    <span>Tus me gusta</span>
+                </div>
+                <div class="tarjeta-mini">
+                    <img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRMn1EecQ5mToLW7ZszWjP-yyXKaEZjWW13JAMgYT-kWj5z8UiH6rCMDJ5&s=10">
+                    <span>Mx</span>
+                </div>
+                <div class="tarjeta-mini">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/2/22/Cypressspanish1.jpg">
+                    <span>Cypress Hill</span>
+                </div>
+                <div class="tarjeta-mini">
+                    <img src="https://i.scdn.co/image/ab67616d0000b27341bad6652009fbbe8e87c063">
+                    <span>La Adictiva</span>
+                </div>
+                <div class="tarjeta-mini">
+                    <img src="https://i.redd.it/5nfuvgcomhza1.jpg">
+                    <span>Perronas</span>
+                </div>
+                <div class="tarjeta-mini">
+                    <img src="https://i.scdn.co/image/ab67616d0000b27308838d890ce360a6ab85303f">
+                    <span>Banda Rafaga</span>
+                </div>
+            </div>
+
+          
+            <div class="encabezado-seccion">
+                <h3 class="titulo-seccion">Volver a escuchar</h3>
+                <span class="mostrar-todo">Mostrar todo</span>
+            </div>
+            <div class="cuadricula-grandes">
+                <div class="tarjeta-grande">
+                    <img src="https://i.scdn.co/image/ab67616d0000b2739b3d4c9e61bbf0f8c0f5e42d" alt="LA FES">
+                    <p class="tarjeta-titulo">Un Hombre Normal</p>
+                    <p class="tarjeta-sub">Espinoza Paz</p>
+                </div>
+                <div class="tarjeta-grande">
+                    <img src="https://i.scdn.co/image/ab67616d00001e028cd8ee17cdc2cabc79d172b3" class="circular"
+                        alt="Acomodo">
+                    <p class="tarjeta-titulo">ACOMODO</p>
+                    <p class="tarjeta-sub">Tito Double P</p>
+                </div>
+                <div class="tarjeta-grande">
+                    <img src="https://lastfm.freetls.fastly.net/i/u/ar0/a41b47307c8a4633aae98c4cdd706ff3.jpg"
+                        class="circular" alt="Akwid">
+                    <p class="tarjeta-titulo">Akwid</p>
+                    <p class="tarjeta-sub">Artista</p>
+                </div>
+                <div class="tarjeta-grande">
+                    <img src="https://i.scdn.co/image/ab67616d0000b27308838d890ce360a6ab85303f" class="circular"
+                        alt="Banda Rafaga">
+                    <p class="tarjeta-titulo">Banda Rafaga</p>
+                    <p class="tarjeta-sub">Artista</p>
+                </div>
+                <div class="tarjeta-grande">
+                    <img src="https://i.scdn.co/image/ab67616d0000b27306520da08cd8077d3561c50f" class="circular"
+                        alt="Tito Double P Artista">
+                    <p class="tarjeta-titulo">Tito Double P</p>
+                    <p class="tarjeta-sub">Artista</p>
+                </div>
+            </div>
+
+           
+            <div class="encabezado-seccion">
+                <h3 class="titulo-seccion">Álbumes con canciones que te gustan</h3>
+                <span class="mostrar-todo">Mostrar todo</span>
+            </div>
+            <div class="cuadricula-grandes">
+                <div class="tarjeta-grande">
+                    <img src="https://i.scdn.co/image/ab67616d0000b2732af087875582b09a6f585ea3" alt="Más Adelante">
+                    <p class="tarjeta-titulo">Más Adelante</p>
+                    <p class="tarjeta-sub">La Arrolladora Banda El Limon</p>
+                </div>
+                <div class="tarjeta-grande">
+                    <img src="https://i.scdn.co/image/ab67616d0000b273741bb983d0ff172fdfbaaaf4" alt="Dr. Dre & Friends">
+                    <p class="tarjeta-titulo">Dr. Dre & Friends</p>
+                    <p class="tarjeta-sub">Dr. Dre</p>
+                </div>
+                <div class="tarjeta-grande">
+                    <img src="https://i.scdn.co/image/ab67616d0000b27341bad6652009fbbe8e87c063"
+                        alt="Disfruté Engañarte">
+                    <p class="tarjeta-titulo">Disfruté Engañarte</p>
+                    <p class="tarjeta-sub">La Adictiva</p>
+                </div>
+                <div class="tarjeta-grande">
+                    <img src="https://i.scdn.co/image/ab67616d0000b273bef50cbf1f78790f9730d0ba" alt="Mil Heridas">
+                    <p class="tarjeta-titulo">Mil Heridas</p>
+                    <p class="tarjeta-sub">Cuisillos De Arturo Macias</p>
+                </div>
+                <div class="tarjeta-grande">
+                    <img src="https://i.scdn.co/image/ab67616d0000b2738ff0dc6e03af2b4b83e9e274" alt="Dinastía">
+                    <p class="tarjeta-titulo">DINASTÍA</p>
+                    <p class="tarjeta-sub">Peso Pluma, Tito Double P</p>
+                </div>
+                <div class="tarjeta-grande">
+                    <img src="https://i.scdn.co/image/ab67616d0000b2739b3d4c9e61bbf0f8c0f5e42d" alt="Un Hombre Normal">
+                    <p class="tarjeta-titulo">Un Hombre Normal</p>
+                    <p class="tarjeta-sub">Espinoza Paz</p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+</body>
+
+</html>
